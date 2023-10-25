@@ -1,0 +1,11 @@
+.icon-link {
+    padding-left: 20px;
+    background: url(../images/peace_3077264.png) left center no-repeat;
+    background-size: 20px;
+    text-decoration: none;
+    color:rgb(78, 78, 168);
+}
+
+.icon-link:hover {
+    color: black;
+}

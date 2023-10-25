@@ -1,0 +1,17 @@
+.checklist{
+    list-style: none;
+}
+.checked{
+    background-image: url(../images/icons8-tick-box-24.png);
+        background-size: 16px 16px;
+        background-position-x: 0;
+        background-repeat: no-repeat;
+        padding-left: 16px;
+    }
+.unchecked{
+    background-image: url(../images/icons8-unchecked-checkbox-24.png);
+        background-size: 16px 16px;
+        background-position-x: 0;
+        background-repeat: no-repeat;
+        padding-left: 16px;
+}
