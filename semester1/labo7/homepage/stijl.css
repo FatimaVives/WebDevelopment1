@@ -1,0 +1,87 @@
+body {
+    background-color: #d3a286;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    padding: 30px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+nav a:hover{
+    color: #833f24;
+}
+.images {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+.images:hover .shape{
+    bottom: 40px;
+}
+.images:hover .me{
+    left: 45%;
+}
+.detel {
+    margin-left: 8%;
+    margin-top: 13%;
+}
+.detel h1 {
+    font-size: 50px;
+    color: black;
+    margin-bottom: 20px;
+}
+span {
+    color: #833f24;
+}
+
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    margin-left: auto; 
+}
+
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}

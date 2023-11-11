@@ -1,0 +1,47 @@
+.calender {
+    margin: auto;
+    max-width: 800px;
+    font-weight: bold;
+    color: black;
+}
+.month {
+    text-align: center;
+    background: rgb(170,170,200);
+    font-size: 80px;
+    letter-spacing: 1px;
+    color: black;
+    border: 2px solid;
+}
+table, th, td {
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    font-size: 27px;
+    border-collapse: collapse;
+    border: 2px dashed black;
+}
+tr, th, td {
+    padding: 15px;
+}
+th {
+    background:rgb(35,37,70);
+    color:  rgb(200,190,240);
+}
+
+tr:nth-last-child(5) td:nth-child(1) { 
+    background: grey;
+    color: rgb(69, 67, 67); 
+}
+tr:nth-last-child(1) td:nth-child(n+5) { 
+    background: grey;
+    color: rgb(69, 67, 67); 
+}
+td:first-child { 
+    background: rgb(255, 220, 220); 
+}
+td:last-child { 
+    background: rgb(255, 220, 220); 
+}
+.vrij {
+    background: rgb(250,120,120);
+}

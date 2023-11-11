@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opdracht 3</title>
+    <link href="./style/stijl.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="datagrid">
+        <table>
+            <thead>
+                <tr>
+                    <th>Naam</th>
+                    <th>Voornaam</th>
+                    <th>Gsm</th>
+                    <th>Adres</th>
+                    <th>Facebook</th>
+                    <th>Instagram</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Persoon A</td>
+                    <td>Persoon A</td>
+                    <td>+3212345678</td>
+                    <td>Aalter</td>
+                    <td>person.a</td>
+                    <td>person.a</td>
+                </tr>
+                <tr class="alt">
+                    <td>Persoon B</td>
+                    <td>Persoon B</td>
+                    <td>+3212345678</td>
+                    <td>Waregem</td>
+                    <td class="onbekend" >---</td>
+                    <td>---</td>
+                </tr>
+                <tr>
+                    <td>Persoon C</td>
+                    <td>Persoon C</td>
+                    <td>+3212345678</td>
+                    <td>Kortrijk</td>
+                    <td>Persoon.c</td>
+                    <td>Persoon.c</td>
+                </tr>
+                <tr class="alt">
+                    <td>Persoon D</td>
+                    <td>Persoon D</td>
+                    <td>+2122345678</td>
+                    <td>Oujda</td>
+                    <td>Persoon.D</td>
+                    <td class="onbekend">---</td>
+                </tr>
+                <tr>
+                    <td>Persoon E</td>
+                    <td>Persoon E</td>
+                    <td>+2122345678</td>
+                    <td>Oujda</td>
+                    <td>Persoon.e</td>
+                    <td class="onbekend">---</td>
+                </tr>
+    
+            </tbody>
+        </table>
+        </div>
+        <article>
+            <p><strong>De regel <code>.onbekend {background-color:red;}</code> heeft geen effect op een <code>&lt;td&gt;</code> cel in een <code>&lt;tr&gt;</code> rij met class="alt" omdat de regel <code>.datagrid table tbody .alt td</code> een hogere specificiteit heeft, waardoor deze de voorkeur krijgt.</strong></p>
+
+        </article>
+</body>
+</html>
