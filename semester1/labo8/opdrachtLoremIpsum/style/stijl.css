@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+.blok {
+   width: 50%;
+   box-sizing: border-box;
+   float: left;
+   border: 1px solid black;
+   padding: 10px;
+}
