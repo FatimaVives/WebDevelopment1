@@ -8,10 +8,10 @@ body {
 }
 
 .blok {
-    width: calc(50% - 10px); /* 50% breedte minus 10px marges */
+    width: calc(50% - 10px); 
     box-sizing: border-box;
     border: 1px solid #000;
     padding: 10px;
     float: left;
-    margin: 5px; /* 5px marge om de binnenste lege ruimte van 10px te creëren */
+    margin: 5px;
 }
