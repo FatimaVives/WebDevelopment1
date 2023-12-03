@@ -1,0 +1,66 @@
+
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+
+}
+.list{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+nav a:hover{
+    color: #833f24;
+}
+.contact-info {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+.card {
+    background-color: #c2c2c1;
+    padding: 0 20px;
+    margin: 0 10px;
+    width: calc(33% - 20px);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #833f24;
+}
+.email-icon {
+    background: url(./images/icons8-circled-envelope-50.png) center no-repeat;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    
+}
+.phone-icon {
+    background: url(./images/icons8-telephone-64.png) center no-repeat;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+.map-icon {
+    background: url(./images/icons8-home-address-50.png) center no-repeat;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+

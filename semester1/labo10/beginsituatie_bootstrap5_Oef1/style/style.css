@@ -1,0 +1,11 @@
+.demo-content {
+    padding: 30px;
+    font-size: 18px;
+    background: #dbdfe5;
+    margin-bottom: 15px;
+    color: #dbdfe5 ;
+}
+.demo-content.bg-alt {
+    background: #abb1b8;
+    color: #abb1b8;
+}
