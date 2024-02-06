@@ -1,0 +1,86 @@
+body {
+    font: 1.2em Verdana, Helvetica, Arial, sans-serif;
+}
+ h1, h2{
+    color: #007e7e;
+ }
+
+ h1 {
+    font-size: 150%;
+ }
+
+ h2 {
+    font-size: 130%;
+ }
+ .page {
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto; 
+    /*pagina centreren met margin op auto te zetten*/
+
+ }
+
+ #headerImg {
+    display: block; /*als één blok*/
+    margin-left: auto;
+    margin-right: auto;
+    /*centreren met margin auto*/
+ }
+
+ #guarantee {
+    margin: 30px;
+    padding: 20px;
+    color: #444444;
+    background: url(../images/background.gif) no-repeat top left;
+    border: 1px dashed white;
+    background-color: #a7cece;
+    padding: 25px 25px 25px 80px;
+    font-style: italic;
+    line-height: 1.9em; /*space btw lines*/
+    font-family: Georgia, "Times New Roman", Times, serif;
+ }
+ .specials {
+    border: 1px solid #007e7e;
+    width: 30%;
+    text-align: center;
+    background: url(../images/cocktail.gif) repeat-x;
+    float: right;
+    padding: 2%;
+    line-height: 1;
+    box-sizing: border-box;
+ }
+ .specials h1 {
+    color: black;
+ }
+ .specials h2 {
+    color:brown;
+ }
+ .specials a:hover {
+    background: #836953;
+    color: white;
+ }
+ a:link {
+    color: #007e7e;
+}
+a:visited {
+    color: #333333;
+}
+.content {
+    width: 70%;
+    float: left;
+    box-sizing: border-box;
+    padding-right: 8px;
+}
+
+footer {
+    clear: both; /*specifies what should happen with the element that is next to a floating element*/
+    font-size: 50%;
+    text-align: center;
+    line-height: normal;
+}
+.cursief {
+    font-style: italic;
+}
+.vet {
+    font-weight: bold;
+}

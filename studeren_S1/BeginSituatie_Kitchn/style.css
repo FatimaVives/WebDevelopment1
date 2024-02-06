@@ -1,0 +1,231 @@
+/** Volgende CSS gaan we ze geven **/
+.respimg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.header{
+    margin: 0 auto;
+    border-bottom: 1px solid #ebe8e8;
+}
+.header img {
+    height: 50px;
+    width: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 10px solid #ebe8e8;
+  }
+  li a {
+    text-decoration: none;
+    color: #5b4746;
+    font-size: 13px;
+    text-transform: uppercase;
+    
+}
+.grid-container a:not(.last):after {
+    content:"";
+    display:block; 
+    height:1px; 
+    background-color:#ebe8e8; 
+    margin-right:-1px; /* Om de rand te overlappen */
+ }
+ 
+ .grid-container a:hover {
+    border-bottom :2px solid #fff100; 
+ }
+
+  ul {
+    list-style-type: none;
+  }
+  .navigation {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.main {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.main img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 2px #8D99AE;
+    text-align: center;
+}
+.recipes-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  }
+
+.recipes-item {
+    grid-gap: 15px;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  div h1 {
+    margin-top: 50px;
+    border-bottom: 1px solid black;
+  }
+
+  .recipes-item h2 {
+    font-size: 1.5em;
+    margin: 0;
+  }
+  .recipes-item h2 a {
+    color: black;
+    text-decoration: none;
+  }
+  .recipes-item:before {
+    content: "";
+    display: block;
+    border-right: 1px solid #ebe8e8;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .recipes-item p.head-item {
+    color: #ff4d56;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  .recipes-item p.body {
+    color: #666;
+    line-height: 2;
+  }
+  
+  .recipes-item p.author {
+    color: #666;
+    font-style: italic;
+    padding-right: 10px;
+    position: relative;
+  }
+  
+  .recipes-item p.author:before {
+    content: "";
+    display: block;
+    border-right: 1px solid #ebe8e8;
+    height: 100%;
+    position: absolute;
+    right: 100%;
+    top: 0;
+  }
+  
+  .recipes-item span.timestamp {
+    padding-left: 10px;
+  }
+  
+  /*.recipes-item {
+    margin-right: 150%;
+    padding-top: 100%;
+    position: relative;
+  }
+  .recipes-item:before {
+    content: "";
+    display: block;
+    border-right: 1px solid #ebe8e8;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .recipes-item h2 {
+    font-size: 1.5em;
+    margin: 0;
+  }
+  
+  .recipes-item h2 a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .recipes-item p.head-item {
+    color: #ff4d56;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  .recipes-item p.body {
+    color: #666;
+    line-height: 2;
+  }
+  
+  .recipes-item p.author {
+    color: #666;
+    font-style: italic;
+    padding-right: 10px;
+    position: relative;
+  }
+  
+  .recipes-item p.author:before {
+    content: "";
+    display: block;
+    border-right: 1px solid #ebe8e8;
+    height: 100%;
+    position: absolute;
+    right: 100%;
+    top: 0;
+  }
+  
+  .recipes-item span.timestamp {
+    padding-left: 10px;
+  }*/
+
+
+  
+
+@media screen and (max-width: 770px){
+    .header {
+        width: 600px;
+    }
+    .navigation {
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 770px){
+    .header {
+        width: 750px;
+    }
+    .navigation {
+        width: 750px;
+    }
+    .main p {
+        font-size: 5em;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .header {
+        width: 980px;
+    }
+    .navigation {
+        width: 980px;
+    }
+}
