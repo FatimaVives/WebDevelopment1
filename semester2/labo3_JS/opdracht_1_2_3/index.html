@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>Demonstratie slider</title>
+	<script type="text/javascript" charset="utf-8" src="scripts/code.js"></script>
+	<link rel="stylesheet" href="styles/styles.css"/>
+</head> 
+<body> 
+<section>
+	<p>Open het console venster, versleep daarna de slider hieronder en kijk welke berichten er komen</p>
+	<input type="range" class="slider" value="50" min="0" max="100" />
+</section>
+<section>
+<p>Een gekleurd blokje :</p>
+<div class="colorDemo" />
+</section>
+<br>
+<h1>Opdracht 1:</h1>
+<p>Console output als je de slider verschuift:</p>
+<img src="./screenshots/Screenshot1.png" alt="Screenshot" width="800">
+<br>
+<h1>Opdracht 2:</h1>
+<ol>
+	<li>de event listtener wordt gekoppeld aan de slider:
+		let sliders = document.getElementsByClassName("slider");
+		sliders[0].addEventListener(...)
+	</li>
+	<li>waar wordt de rode kleur van het blokje ingesteld: colorDemos[0].style.backgroundColor="red";</li>
+	<li>The [0] indicates that we are accessing the first element (index 0) of the array. In JavaScript, arrays are zero-indexed, meaning the first element is at index 0, the second at index 1, and so on.
+		In summary, the line of code <code>sliders[0].addEventListener("change", update);</code> adds an event listener to the first slider in an array, so that when the slider value changes, the update function is executed.
+	</li>
+</ol>
+</body> 
+</html> 
