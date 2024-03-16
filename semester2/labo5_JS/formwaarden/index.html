@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form waarden</title>
+    <link rel="stylesheet" href="./css/stijl.css" type="text/css">
+</head>
+<body>
+    <form>
+        <!-- Isroker -->
+        <label for="Isroker">Is roker</label>
+        <input type="checkbox" name="Isroker" value="Isroker" id="Isroker"><br>
+        <!-- Moedertaal -->
+        <label>Moedertaal</label>
+        <input type="radio" name="Moedertaal" id="nederlands" value="nl">
+        <label for="nederlands">Nederlands</label>
+        <input type="radio" name="Moedertaal" id="frans" value="fr" checked>
+        <label for="frans">Frans</label>
+        <input type="radio" name="Moedertaal" id="engels" value="en">
+        <label for="engels">Engels</label>
+        <br><br>
+        <!-- Favoriete buurland -->
+        <label for="Fbuurland">Favoriete buurland</label>
+        <select id="Fbuurland" name="Fbuurland">
+            <option value="Frankrijk">Frankrijk</option>
+            <option value="Nederland">Nederland</option>
+            <option value="Duitsland">Duitsland</option>
+            <option value="Luxemburg">Luxemburg</option>
+        </select>
+        <br><br>
+        <!-- bestelling -->
+        <label for="bestelling">Bestelling </label>
+        <select id="bestelling" name="bestelling[]" multiple style="height: 6em;">
+            <option value="aardappelen">Aardappelen </option>
+            <option value="brood">Brood</option>
+            <option value="melk">Melk</option>
+            <option value="biefstuk">Biefstuk</option>
+            <option value="chips">Chips</option>
+            <option value="krant">Krant</option>
+        </select>
+        <br><br>
+        <!-- Toon result -->
+        <button type="button" onclick="toonResultaat()">Toon resultaat</button>
+    </form>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
