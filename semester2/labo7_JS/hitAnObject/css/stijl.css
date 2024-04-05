@@ -1,0 +1,35 @@
+#playField{
+    /* // aanvullen met hoogte en breedte */
+    position: relative;
+    height: 600px;
+    width: 800px;
+    border: 2px solid black;
+}
+
+
+
+#gameArea {
+    margin: auto 0;
+    width: 600px;
+}
+
+#scoreArea {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin: 10px;
+    
+}
+
+#scoreLabel {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#score {
+    font-weight: bold;
+}
+
