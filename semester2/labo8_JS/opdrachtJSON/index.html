@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opdracht JSON</title>
+</head>
+<body>
+    <h1>Vraag 1:</h1>
+    <p>Het formaat dat wordt gebruikt om het Date object op te slaan in JSON is een ISO 8601 datumtijd formaat: "YYYY-MM-DDTHH:mm:ss.sssZ".</p>
+    <h1>Vraag 2:</h1>
+    <p>Wanneer een object meerdere keren voorkomt tijdens het opbouwen van een JSON-tekst, wordt het object niet herhaaldelijk in de tekst opgenomen. In plaats daarvan wordt het object slechts één keer opgenomen, en voor de herhaalde keren wordt er naar datzelfde object verwezen met een referentie.</p>
+    <p>Dit betekent dat als je bijvoorbeeld een object <strong>a</strong> hebt met een eigenschap <strong>b</strong> die verwijst naar een ander object <strong>c</strong>, en als <strong>c</strong> weer een eigenschap heeft die verwijst naar <strong>a</strong>, dan zal de JSON-tekst deze ver wijzingen correct behandelen zonder in een oneindige lus te belanden. Het zal het object <strong>c</strong> slechts één keer opnemen en vervolgens voor de tweede keer dat <strong>c</strong> wordt genoemd, zal het simpelweg verwijzen naar de eerdere vermelding. Dit maakt JSON-teksten efficiënter en voorkomt redundantie.</p>
+    <h1>Screenshot Console:</h1>
+    <img src="./images/ScreenshotConsole.png" alt="screenshot">
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
