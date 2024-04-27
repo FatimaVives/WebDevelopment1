@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentatie opdrachten</title>
+</head>
+<body>
+    <h1>Documentatie over demo's</h1>
+    <p>Blijft de data behouden als je het tabblad sluit en de pagina opnieuw opent? <strong>Ja, als je 'localStorage' gebruikt blijft de data behouden. Als je 'sessionStorage' gebruikt, wordt de data gewist zodra het tabblad wordt gesloten.</strong></p>
+
+    <p>Blijft de data behouden als je de pagina herlaadt? <strong>Ja, zowel 'localStorage' als 'sessionStorage' behouden data bij het herladen van de pagina.</strong></p>
+
+    <p>Blijft de data behouden als je de browser afsluit, opnieuw start en de pagina weer opent? <strong>'localStorage' bewaart de data zelfs na het herstarten van de browser. 'SessionStorage' daarentegen wist de data als de browser wordt afgesloten.</strong></p>
+
+    <p>Blijft de data behouden als je de pagina in een andere browser opent? <strong>Neen, 'localStorage' en 'sessionStorage' zijn specifiek voor de browser waarin ze worden opgeslagen. Openen in een andere browser toont geen van de eerder opgeslagen data.</strong></p>
+
+    <p>Wordt de data gedeeld door verschillende tabbladen als je de pagina meermaals opent? <strong>'localStorage' deelt data tussen verschillende tabbladen van dezelfde browser. 'SessionStorage' deelt data alleen binnen dezelfde browsertab of -venster, afhankelijk van de implementatie.</strong></p>
+
+    <p>Denk je dat een andere pagina (andere file of url) aan de data geraakt? <strong>'LocalStorage' en 'sessionStorage' zijn toegankelijk voor alle pagina's van dezelfde oorsprong (hetzelfde domein, protocol en poort). Dit betekent dat een andere pagina binnen dezelfde oorsprong toegang heeft tot de data.</strong></p>
+</body>
+</html>
