@@ -1,0 +1,62 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 8px;
+  }
+  
+  .card {
+    flex-basis: calc(33.33% - 8px);
+    max-width: calc(33.33% - 8px);
+  }
+
+  .card-youtube {
+    background-color: red;
+    color: white;
+    padding: 10px;
+  }
+  
+  .card-header {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .card-title {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .card-youtube .btn {
+    background-color: black;
+    color: white;
+  }
+
+  .card-instagram {
+    background-color: #c32aa3;
+    color: white;
+    padding: 10px;
+  }
+  .card-instagram .btn {
+    background-color: #f46f30;
+    color: white;
+  }
+
+  .card-twitter{
+    background-color: #1da1f2;
+    color: white;
+    padding: 10px;
+  }
+  .card-twitter .btn {
+    background-color: black;
+    color: white;
+  }
+  .card-google {
+    background-color: #4285f4;
+    color: white;
+    padding: 10px;
+  }
+  .card-google .btn {
+    background-color: #ea4335;
+    color: white;
+  }
+  
